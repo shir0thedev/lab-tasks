@@ -1,0 +1,251 @@
+.container {
+    position: relative;
+}
+
+.block {
+    position: absolute;
+    height: 700px;
+    width: 1600px;
+    background-color: white;
+    margin-left: 170px;
+    margin-top: 75px;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.block1 {
+    position: absolute;
+    height: 200px;
+    width: 1600px;
+    background-color: rgb(0, 110, 255);
+    margin-left: 170px;
+    margin-top: 75px;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+
+
+.image {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    z-index: 3;
+}
+
+.name {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    transform: translate(450px, 120px);
+    z-index: 4;
+}
+
+.sb {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    transform: translate(450px, 180px);
+    z-index: 5;
+}
+
+.sb2 {
+    position: absolute;
+    font-size: 18px;
+    color: rgb(202, 202, 202);
+    transform: translate(450px, 210px);
+    z-index: 6;
+}
+
+.aboutme {
+    position: absolute;
+    font-size: 25px;
+    color: rgb(77, 77, 77);
+    margin-top: 370px;
+    margin-left: 210px;
+    z-index: 7;
+
+}
+
+.bio {
+    position: absolute;
+    font-size: 18px;
+    color: rgb(121, 121, 121);
+    margin-top: 420px;
+    margin-left: 210px;
+    z-index: 8;
+    padding-right: 1000px;
+
+}
+
+.age {
+    position: absolute;
+    font-size: 18px;
+    color: rgb(121, 121, 121);
+    margin-top: 370px;
+    margin-left: 1300px;
+    z-index: 9;
+
+}
+
+.age {
+    position: absolute;
+    font-size: 18px;
+    color: rgb(121, 121, 121);
+    margin-top: 370px;
+    margin-left: 1300px;
+    z-index: 9;
+
+}
+
+
+.mail {
+    position: absolute;
+    font-size: 18px;
+    color: rgb(121, 121, 121);
+    margin-top: 400px;
+    margin-left: 1300px;
+    z-index: 9;
+
+}
+
+.number {
+    position: absolute;
+    font-size: 18px;
+    color: rgb(121, 121, 121);
+    margin-top: 430px;
+    margin-left: 1300px;
+    z-index: 9;
+
+}
+
+.address {
+    position: absolute;
+    font-size: 18px;
+    color: rgb(121, 121, 121);
+    margin-top: 460px;
+    margin-left: 1300px;
+    z-index: 9;
+
+}
+
+.line {
+    position: absolute;
+    height: 2px;
+    width: 1600px;
+    margin-top: 550px;
+    margin-left: 170px;
+    background-color: rgb(182, 182, 182);
+    z-index: 10;
+}
+
+.edu {
+    position: absolute;
+    font-size: 25px;
+    color: rgb(77, 77, 77);
+    margin-top: 600px;
+    margin-left: 210px;
+    z-index: 7;
+
+}
+
+.edudes1 {
+    position: absolute;
+    font-size: 18px;
+    color: rgb(77, 77, 77);
+    margin-top: 650px;
+    margin-left: 210px;
+    z-index: 7;
+
+}
+
+.edudes2 {
+    position: absolute;
+    font-size: 18px;
+    color: rgb(77, 77, 77);
+    margin-top: 680px;
+    margin-left: 210px;
+    z-index: 7;
+
+}
+
+.edudes3 {
+    position: absolute;
+    font-size: 18px;
+    color: rgb(77, 77, 77);
+    margin-top: 710px;
+    margin-left: 210px;
+    z-index: 7;
+
+}
+
+.soft {
+    position: absolute;
+    font-size: 25px;
+    color: rgb(77, 77, 77);
+    margin-top: 600px;
+    margin-left: 1300px;
+    z-index: 7;
+
+}
+
+.soft1 {
+    position: absolute;
+    font-size: 18px;
+    color: rgb(77, 77, 77);
+    margin-top: 650px;
+    margin-left: 1300px;
+    z-index: 8;
+
+}
+
+.soft2 {
+    position: absolute;
+    font-size: 18px;
+    color: rgb(77, 77, 77);
+    margin-top: 680px;
+    margin-left: 1300px;
+    z-index: 9;
+
+}
+
+.soft3 {
+    position: absolute;
+    font-size: 18px;
+    color: rgb(77, 77, 77);
+    margin-top: 710px;
+    margin-left: 1300px;
+    z-index: 10;
+
+}
+
+.html {
+    position: absolute;
+    margin-top: 650px;
+    margin-left: 1550px;
+    height: 20px;
+    width: 200px;
+    z-index: 11;
+}
+
+.css {
+    position: absolute;
+    margin-top: 680px;
+    margin-left: 1550px;
+    height: 22px;
+    width: 200px;
+    z-index: 11;
+}
+
+.js {
+    position: absolute;
+    margin-top: 710px;
+    margin-left: 1550px;
+    height: 28px;
+    width: 200px;
+    z-index: 11;
+}
