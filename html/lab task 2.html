@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Admission Form</title>
+    </head>
+    <body>
+    <form>
+        <h1>University Admission Form</h1>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label>Name:</label>
+            <input type="text" required maxlength="20"><br>
+            <label>Email:</label>
+            <input type="email" required><br>
+            <label>Gender:</label>
+            <input type="radio" required>Male
+            <input type="radio" required>Female<br>
+
+        </fieldset>
+        <fieldset>
+            <legend>Academic Information</legend>
+            <label>Interests</label>
+            <input type="checkbox">IoT
+            <input type="checkbox">Coding
+            <input type="checkbox">Business
+            <br>
+            <label>Department Selection</label>
+            <select>
+                <option>CSE</option>
+                <option>EEE</option>
+                <option>Architecture</option>
+            </select>
+            <br>
+            <label>Enrollment Date:</label>
+            <input type="date" required><br>
+            <label>Upload Your Resume</label>
+            <input type="file" required><br>
+
+        </fieldset>
+        <button type="submit">Submit</button>
+    </form>
+    </body>
+</html>
