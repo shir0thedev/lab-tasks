@@ -1,0 +1,60 @@
+.box {
+    display: inline-block;
+    width: 200px;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid black;
+    background: #eae0eb;
+    text-align: center;
+}
+
+.laptop {
+    width: 100px;
+    height: auto;
+}
+.smartwatch{
+    width: 100px;
+    height: auto;
+}
+.headphones {
+    width: 100px;
+    height: auto;
+}
+
+.box:hover {
+    outline: 2px solid #333;
+    outline-offset: 4px;
+}
+
+.price {
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.buy {
+    text-decoration: none;
+    color: blue;
+}
+.navbar {
+    background-color: #5314ff;
+    padding: 10px;
+    display: block;
+}
+
+.home, .about, .services, .gallery, .contact{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+.home:hover, .about:hover, .services:hover, .gallery:hover, .contact:hover{
+    background-color: #ec79e7;
+    color: rgb(255, 255, 255);
+}
