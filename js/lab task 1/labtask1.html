@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Portal</title>
+</head>
+<body>
+
+<form id="regForm" novalidate>
+    <h1>Student Portal Registration</h1>
+    <fieldset>
+        <legend>Please fill up the form</legend>
+        <label>Full Name:</label>
+        <input type="text" id="name" required maxlength="20"><br>
+        <label>Email:</label>
+        <input type="email" id="email1" required><br>
+        <label>Password:</label>
+        <input type="password" id="password" required><br>
+        <label>Confirm Password:</label>
+        <input type="password" id="confirmPassword" required><br>
+        <label>Phone Number:</label>
+        <input type="number" id="phone" required><br>
+
+    </fieldset>
+
+    <button type="submit">Submit</button>
+</form>
+
+    <script>
+
+        document.getElementById("regForm").addEventListener("submit", function(validation) {
+        validation.preventDefault();
+        let email = document.getElementById("email").value;
+        let pass = document.getElementById("password").value;
+        let cpass = document.getElementById("confirmPassword").value;
+        let phone = document.getElementById("phone").value;
+
+
+        if (!email.includes("@") || !email.includes(".")) {
+            alert("Email must contain @ and .");
+            return;
+        }
+        if (pass.length < 6) {
+            alert("Password must be at least 6 characters");
+            return;
+        }
+        if (pass !== cpass) {
+            alert("Password and Confirm Password must match");
+            return;
+        }
+        if (isNaN(phone) || phone.trim() === "") {
+            alert("Phone number must contain only digit");
+            return;
+        }
+
+
+        alert("Registration Successful!");
+
+        });
+    </script>
+
+</body>
+</html>
